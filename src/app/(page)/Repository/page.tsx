@@ -9,18 +9,19 @@ export default function page() {
 
   return (
     <div>
-      <header>
+      <header className="flex items-center justify-between">
         <Link className="text-2xl" href="/">
           Voltar
         </Link>
+        <p>{repositorio.length} repositorios</p>
       </header>
       {repositorio.map((item, quantidade) => (
         <a
           className="block border bg-slate-300 transition-all hover:bg-slate-50"
           href={item.html_url}
         >
-          <h2 className="text-2xl">
-            {item.name} ({quantidade + 1})
+          <h2 className="flex justify-between text-2xl">
+            <span>{item.name}</span> <span>({quantidade + 1})</span>
           </h2>
           <p>{item.html_url}</p>
         </a>

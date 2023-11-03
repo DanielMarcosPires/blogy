@@ -1,5 +1,6 @@
 "use client";
 import { Button } from "@/Components/Button/Button";
+import Dropdown from "@/Components/Dropdown/Dropdown";
 /* eslint-disable sort-imports */
 /* eslint-disable @next/next/no-img-element */
 import { useScrollState } from "@/Hook/useScrollState";
@@ -18,10 +19,22 @@ export function Header({ displayCSS }) {
       <div className="mx-auto flex w-4/5 items-center justify-between">
         <div className="flex items-center gap-4">
           <img src="/images/logo.svg" width={101} height={40} alt="Blogr" />
+          <Dropdown
+            dropdownList={
+              <>
+                <Link href={"/Repository"}>Github</Link>
+              </>
+            }
+          >
+            Repositorio
+          </Dropdown>
         </div>
         <div className="flex gap-2">
           <Button variant="primary">
-            <Link href={"/Repository"}>Repository</Link>
+            <Link href={"/login"}>Login</Link>
+          </Button>
+          <Button variant="secondary">
+            <Link href={"/cadastro"}>Cadastro</Link>
           </Button>
         </div>
       </div>
