@@ -1,0 +1,29 @@
+:root {
+  /*Primary*/
+  --lightRed: hsl(356, 100%, 66%);
+  --veryLightRed: hsl(355, 100%, 74%);
+  --veryDarkBlue: hsl(208, 49%, 24%);
+
+  /*Neutral*/
+  --white: #fff;
+  --grayishBlue: hsl(240, 2%, 79%);
+  --veryDarkGrayishBlue: hsl(207, 13%, 34%);
+  --veryDarkBlackBlue: hsl(240, 10%, 16%);
+
+  /*Gradient*/
+  --veryLightRed: #ff8f70;
+  --lightRed: #ff3d54;
+
+  --veryDarkGrayBlue: #2c2d3f;
+  --veryDarkDesaturatedBlue: #3f4164;
+
+  --fontSize: 16px;
+}
+/*
+- Family: [Overpass](https://fonts.google.com/specimen/Overpass?preview.text_type=custom)
+- Weights: 300, 600
+
+- Family: [Ubuntu](https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom)
+- Weights: 400, 500, 700
+
+*/

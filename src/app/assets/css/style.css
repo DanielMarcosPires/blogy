@@ -1,0 +1,5 @@
+@import url("./pallete.css");
+
+.header {
+  background: var(--lightRed);
+}

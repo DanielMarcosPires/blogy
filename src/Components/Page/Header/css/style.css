@@ -1,0 +1,8 @@
+@import url("../../../app/assets/css/pallete.css");
+
+.header {
+  background: linear-gradient(90deg, var(--veryLightRed), var(--lightRed));
+}
+.header__signUp {
+  color: var(--lightRed);
+}
